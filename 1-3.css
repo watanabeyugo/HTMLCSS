@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: 550px;
+}
+.header-top {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+.header-bottom {
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+}
+.main {
+  width: 100%;
+  height: 1400px;
+  background-color: peachpuff;
+  display: flex;
+  justify-content: center
+}
+.sidebar-right {
+width: 230px;
+height: 1400px;
+background-color: rgb(21, 245, 234);
+z-index: 2;
+}
+. sidebar-left {
+  width: 230px;
+  height: 1400px;
+  background-color:limegreen;
+  z-index: 1;
+}
+
+
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
+
+
